@@ -20,7 +20,7 @@ Installation
 
   1. Add these repositories to your project's deps:
 
-      [ClicktrendReverseProxyBundle]
+          [ClicktrendReverseProxyBundle]
               git=git@github.com:clicktrend/ReverseProxyBundle.git
               target=/bundles/Clicktrend/ClicktrendPublicSuffixBundle
               
@@ -60,6 +60,7 @@ Installation
 
   6. Modify your Apache virtual host like this: (don't forget to activate 
      Proxy modules)
+          
           ProxyRequests Off
           SSLProxyEngine On
 
